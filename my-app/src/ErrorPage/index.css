@@ -1,0 +1,70 @@
+.error-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.error-image {
+    width: 400px;
+}
+.error-text {
+    font-size: 20px;
+    color: #000000;
+}
+.error-btn {
+    background-color: #4f46e5;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+    .error-image {
+        width: 200px;
+    }
+    .error-text {
+        font-size: 17px;
+    }
+    .error-btn {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 1000px) {
+    .error-image {
+        width: 600px;
+    }
+    .error-text {
+        font-size: 47px;
+    }
+    .error-btn {
+        font-size: 25px;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .error-image {
+        width: 800px;
+        margin-top: 50px;
+    }
+    .error-text {
+        font-size: 67px;
+    }
+    .error-btn {
+        font-size: 45px;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

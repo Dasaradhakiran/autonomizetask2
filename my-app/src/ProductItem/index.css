@@ -1,0 +1,142 @@
+.product-main-cont {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.product-main-sub-cont {
+    width: 50vw;
+}
+.product-image {
+    width: 330px;
+    height: 380px;
+    margin-right: 40px;
+}
+.product-title {
+    font-size: 25px;
+}
+.product-price {
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-rating-cont {
+    display: flex;
+    align-items: center;
+}
+.product-sub-rating-cont {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    margin-right: 20px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+}
+.product-rating {
+    font-size: 13px;
+    color: #ffffff;
+    margin: 0px;
+    margin-right: 8px;
+    
+}
+.product-rating-icon {
+    font-size: 11px;
+    color: #ffffff;
+    margin: 0px;
+}
+.product-count {
+    font-size: 15px;
+}
+.product-description {
+    font-size: 17px;
+    color: #363434;
+}
+.product-category {
+    font-size: 14px;
+}
+.product-category-span {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .product-main-cont {
+        flex-direction: column;
+    }
+    .product-image{
+        width: 180px;
+        height: 250px;
+    }
+    .product-title{
+        font-size: 17px;
+    }
+    .product-price{
+        font-size: 15px;
+    }
+    .product-rating{
+        font-size: 9px;
+    }
+    .product-rating-icon{
+        font-size: 7px;
+    }
+    .product-count {
+        font-size: 13px;
+    }
+    .product-description {
+        font-size: 14px;
+    }
+    .product-category-span{
+        font-size: 14px;
+    }
+    .product-category {
+        font-size: 13px;
+    }
+    .product-main-sub-cont{
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .product-image{
+        width: 700px;
+        height: 950px;
+    }
+    .product-main-cont {
+        padding: 80px;
+    }
+    .product-title{
+        font-size: 60px;
+    }
+    .product-price{
+        font-size: 50px;
+    }
+    .product-rating{
+        font-size: 35px;
+    }
+    .product-rating-icon{
+        font-size: 33px;
+    }
+    .product-count {
+        font-size: 35px;
+    }
+    .product-description {
+        font-size: 45px;
+    }
+    .product-category-span{
+        font-size: 40px;
+    }
+    .product-category {
+        font-size: 38px;
+    }
+    .product-main-sub-cont{
+        width: 50vw;
+    }
+    .product-sub-rating-cont {
+        padding: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-radius: 15px;
+    }
+}
